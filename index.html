@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>献给最爱的妈妈</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff5f5;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .message-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: #e91e63;">献给最爱的妈妈</h1>
+
+    <div class="gallery">
+        
+            <img src="/mom_01.jpg" alt="妈妈的照片">
+        
+            <img src="/mom_02.jpg" alt="妈妈的照片">
+        
+    </div>
+
+    <h2 style="text-align: center; color: #e91e63;">来自家人的祝福</h2>
+    
+        <div class="message-box">
+            <p>老妈节日快乐，老妈，妇女节快乐！</p>
+        </div>
+    
+        <div class="message-box">
+            <p>这十八年您像灯塔一样为我照亮成长的航道，把最好的资源化作养分，却把自己的辛苦藏进皱纹里。</p>
+        </div>
+    
+        <div class="message-box">
+            <p>现在我能独当一面了，您可以把操心模式调成省电模式啦！</p>
+        </div>
+    
+        <div class="message-box">
+            <p>让您每次想起我时，眼里都闪着欣慰的光✨成为你们的骄傲</p>
+        </div>
+    
+</body>
+</html>
