@@ -1,40 +1,38 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>献给最爱的妈妈</title>
+    <title>妈妈，妇女节快乐！</title>
     <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            background: #fff5f5;
-            font-family: 'Microsoft YaHei', sans-serif;
+        body { 
+            background: #fff0f5; 
+            font-family: 'Microsoft YaHei';
+            padding: 40px;
         }
-        .gallery {
+        .photo-wall {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
             max-width: 1200px;
             margin: 0 auto;
         }
-        .gallery img {
+        img {
             width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
             transition: transform 0.3s;
         }
-        .gallery img:hover {
+        img:hover {
             transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <h1 style="text-align: center; color: #e91e63;">❤️ 妇女节快乐！ ❤️</h1>
-    <div class="gallery">
-        <img src="resized_photos/mom_01.jpg" alt="妈妈的照片 1">
-        <img src="resized_photos/mom_02.jpg" alt="妈妈的照片 2">
+    <h1 style="text-align:center;color:#e91e63;font-size:2.5em">
+        ❤️ 您是我心中永远的女神 ❤️
+    </h1>
+    <div class="photo-wall">
+        <img src="photos/mom1.jpg">
+        <img src="photos/mom2.jpg">
     </div>
 </body>
 </html>
